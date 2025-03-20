@@ -94,6 +94,6 @@ queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus 
 
 game.Players.LocalPlayer.OnTeleport:Connect(function(State)
 	if queueteleport then
-		queueteleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/DemixPro/m1reset-tsb-queueonteleport/refs/heads/main/m1reset-with-queueonteleport.lua"))()')
+		queueteleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/demixluaher/TSB-m1reset-script/refs/heads/main/m1reset.lua"))()')
     end
 end)
